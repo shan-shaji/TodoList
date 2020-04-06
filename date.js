@@ -11,7 +11,8 @@ exports.getDate = function() {
 }
 
 // module.exports is also possible
-exports.getDay =  () => {
+
+exports.getDay =  () => {   // possible syntax of function
   const today = new Date();
   const options = {
     weekday: "long",
